@@ -788,6 +788,14 @@ html {
   -------------
   Note: Feel free to remove all of the CSS underneath this line if you are not using the default theme
 */
+@font-face {
+  font-family: "C";
+  src: url("CT.otf") format("opentype"); }
+
+@font-face {
+  font-family: "CI";
+  src: url("CTI.otf") format("opentype"); }
+
 html {
   font-size: 62.5%;
   height: 100%;
@@ -796,7 +804,7 @@ html {
     background: #e2e2e2; }
 
 body {
-  font-family: 'Canela-Thin', serif;
+  font-family: 'C', serif;
   font-size: 1.4rem;
   color: #000;
   position: relative;
@@ -804,7 +812,7 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 i {
-  font-family: 'Canela-ThinItalic', serif; }
+  font-family: 'CI', serif; }
 
 .body-wrap {
   transition: 2s .75s ease all; }
