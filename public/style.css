@@ -1105,7 +1105,7 @@ section {
   z-index: 1; }
   section.photo {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-bottom: 5rem; }
     section.photo.text {
       align-items: center; }
@@ -1133,11 +1133,12 @@ section {
           padding: 4rem; }
     section.photo .left,
     section.photo .right {
-      width: 35%; }
+      width: 50%; }
       section.photo .left img,
       section.photo .right img {
         width: 100%; }
     section.photo .right {
+      padding-top: 5rem;
       padding-left: 5rem;
       font-size: 1.8rem;
       line-height: 1.3; }
