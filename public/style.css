@@ -1133,17 +1133,24 @@ section {
           padding: 4rem; }
     section.photo .left,
     section.photo .right {
-      width: 50%; }
+      width: 35%; }
       section.photo .left img,
       section.photo .right img {
         width: 100%; }
     section.photo .right {
       padding-top: 5rem;
       padding-left: 5rem;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       line-height: 1.3; }
-      section.photo .right i {
-        font-size: 2.2rem; }
+
+
+span.small {
+    font-size: 1.3rem;
+}
+
+.right a {
+    border-bottom: 0.9px solid black;
+}
 
 footer {
   padding: 0;
